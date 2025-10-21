@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--TODO poner el frame de google maps con la ubicacion-->
+<!--TODO acomodar responsive design-->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡MI PRIMER CUMPLEAÑOS! 🥳</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="/media/icon.ico">
+</head>
+<body>
+    <div class="balloon balloon-1">🎈</div>
+    <div class="balloon balloon-2">🥳</div>
+    <div class="confetti confetti-1">✨</div>
+    <div class="confetti confetti-2">🎂</div>
+
+    <div class="container">
+        <section class="photo-gallery pop-in">
+            <h1 class="bounce-text">¡ MI CUMPLEAÑOS <span class="number-one">1</span> !</h1>
+            <h2 class="header-subtitle">Ian Javier Acevedo Barrios</h2>
+            <div class="gallery-grid">
+                <div class="photo-placeholder zoom-on-hover photo-1"></div>
+                <div class="photo-placeholder zoom-on-hover photo-2"></div>
+                <div class="photo-placeholder zoom-on-hover photo-3"></div>
+                <div class="photo-placeholder zoom-on-hover photo-4"></div>
+            </div>
+        </section>
+
+        <section class="countdown-section pulse">
+            <p>¡Solo quedan!</p>
+            <div id="countdown" class="countdown-timer">
+                <div class="timer-box animated-box">
+                    <span id="days">00</span>
+                    <small>DÍAS</small>
+                </div>
+                <div class="timer-box animated-box">
+                    <span id="hours">00</span>
+                    <small>HRS</small>
+                </div>
+                <div class="timer-box animated-box">
+                    <span id="minutes">00</span>
+                    <small>MIN</small>
+                </div>
+                <div class="timer-box animated-box">
+                    <span id="seconds">00</span>
+                    <small>SEG</small>
+                </div>
+            </div>
+        </section>
+
+        <section class="details-section">
+            <div class="detail-card wobble">
+                <h3>🗓️ CUÁNDO</h3>
+                <p>Domingo, <strong class="highlight-date">07/Diciembre/2025</strong></p>
+                <p>A las <strong class="highlight-time">2:30 PM</strong></p>
+            </div>
+            
+            <div class="detail-card wobble">
+                <h3>🏰 DÓNDE</h3>
+                <p>Salón: <strong class="highlight-place">MONKEY KIDS</strong></p>
+                <p>Calle Cerro de la Virgen número 124, Col. Lomas de la Pimienta</p>
+                <div class="google-maps-container">
+                    <iframe class="google-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d546.8790263420404!2d-102.58873299152691!3d22.767277484813064!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86824e68b56dae5d%3A0x7e9c6f022951e192!2ssalon%20monkey%20kids!5e0!3m2!1ses-419!2smx!4v1761019313433!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+        
+        <footer class="fade-in">
+            <p>🎂 ¡LOS ESPERAMOS! 🥳</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script> 
+</body>
+</html>
