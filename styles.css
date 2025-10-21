@@ -272,10 +272,10 @@ header:hover {
     background-size: cover;
     background-position: center;
 }
-.photo-1 { background-image: url('/media/pic1.jpeg'); }
-.photo-2 { background-image: url('/media/pic2.jpeg'); }
-.photo-3 { background-image: url('/media/pic3.jpeg'); }
-.photo-4 { background-image: url('/media/pic4.jpeg'); }
+.photo-1 { background-image: url('https://raw.githubusercontent.com/GaelGC04/ian_cumple_1/refs/heads/main/media/pic1.jpeg'); }
+.photo-2 { background-image: url('https://raw.githubusercontent.com/GaelGC04/ian_cumple_1/refs/heads/main/media/pic2.jpeg'); }
+.photo-3 { background-image: url('https://raw.githubusercontent.com/GaelGC04/ian_cumple_1/refs/heads/main/media/pic3.jpeg'); }
+.photo-4 { background-image: url('https://raw.githubusercontent.com/GaelGC04/ian_cumple_1/refs/heads/main/media/pic4.jpeg'); }
 
 
 .photo-placeholder:hover {
